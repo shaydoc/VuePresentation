@@ -1,12 +1,7 @@
-# Example slideshows for Eagle.js
+# BelfastJS Vue Lightning Talk Slide - Using EagleJS
 
-This folder/repo contains the source of a demo Eagle.JS webpage featuring a few slideshows. [Here is the page in action](https://zulko.github.io/eaglejs-demo/#/).
-
-To get started, download the zip of this repo or clone it with:
-``` bash
-git clone https://github.com/Zulko/eaglejs-demo.git
-```
-
+See EagleJS @  https://github.com/Zulko/eaglejs-demo.git
+ 
 Install the dependencies (they will only be downloaded in a local folder):
 ```bash
 cd eaglejs-demo
