@@ -40,6 +40,13 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='scss' scoped>
 @import "node_modules/eagle.js/src/themes/frontpage/frontpage";
+@import url('https://fonts.googleapis.com/css?family=Dosis:500');
+
+h1, h2, h3, h4, p {
+  font-weight: normal;
+  font-family: 'Dosis'
+}
+
 .logo {
   display: inline-block;
   width: 130px;
