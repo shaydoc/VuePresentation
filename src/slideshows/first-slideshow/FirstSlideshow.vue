@@ -236,7 +236,12 @@
         
 
         img.vuecomp(v-if='step >=5' src='https://camo.githubusercontent.com/224f79940611c6c12fb649128eca1cae31086d23/68747470733a2f2f7261776769742e636f6d2f7675656a732f617765736f6d652d7675652f6d61737465722f6c6f676f2e706e67')
-        
+
+    slide(enter='bounceInRight' leave='fadeOut')
+      h3.title How to get started with Vue and Webpack
+
+      h4 vue-cli
+
     slide(enter='bounceInRight' leave='fadeOut')
       h1.end The End...   
 
