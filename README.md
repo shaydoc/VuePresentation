@@ -1,4 +1,4 @@
-# BelfastJS Vue Lightning Talk Slide - Using EagleJS
+# BelfastJS Vue Lightning Talk Slides - Using EagleJS
 
 See EagleJS @  https://github.com/Zulko/eaglejs-demo.git
  
