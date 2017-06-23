@@ -89,15 +89,15 @@
     
       
     slide(:mouseNavigation='false' enter='bounceInRight' leave='fadeOut' :steps="7") 
-      h3.title Front end woe's
+      h3.title Front end gripes
 
       img.vuecomp(v-if='step == 1' src="https://media.giphy.com/media/YpmVBNubONoqs/giphy.gif")
 
       ol.reasons
-        li.reason-item.bigpad(v-if='step >= 2') Developer Ramp up time is high
-        li.reason-item.bigpad(v-if='step >= 3') Existing UI framework with knockout.js/RequireJS is showing its age
-        li.reason-item.bigpad(v-if='step >= 4') Component architecture and "data-bind" everything in knockout.js is clunky
-        li.reason-item.bigpad(v-if='step >= 5') Its free and easy, devs have more decisions to make (lacking consistency) 
+        li.reason-item.bigpad(v-if='step >= 2') New developer ramp up time is high
+        li.reason-item.bigpad(v-if='step >= 3') Knockout.js development is slowing, less releases
+        li.reason-item.bigpad(v-if='step >= 4') Knockout Components get messy when you get to nesting components
+        li.reason-item.bigpad(v-if='step >= 5') Knockout lacks lifecyle hooks,its free and easy, devs have more decisions to make (lacking consistency) 
         li.reason-item.bigpad(v-if='step >= 6') Clients want Mobile apps also...
         li.reason-item.bigpad(v-if='step >= 7') There are more modern streamlined options
     
@@ -111,7 +111,7 @@
       h3.title What are we looking for ?
 
       ol.reason
-        li.reason-item.bigpad(v-if='step >= 2') More structure and less verbosity
+        li.reason-item.bigpad(v-if='step >= 2') Tighten up the structural patterns 
         li.reason-item.bigpad(v-if='step >= 3') Something junior devs and js newbies can pick up quickly
         li.reason-item.bigpad(v-if='step >= 4') Better build and release management process
         li.reason-item.bigpad(v-if='step >= 5') Leaner, faster code would be nice
@@ -152,10 +152,15 @@
     slide(:mouseNavigation='false' enter='bounceInRight' leave='fadeOut') 
       h3.title Starting Vue.js
      
+      <iframe width="100%" height="500" src="//jsfiddle.net/shaydoc/vefppzcb/21/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+    slide(:mouseNavigation='false' enter='bounceInRight' leave='fadeOut') 
+      h3.title Add a directive (v-on:click or  @click for short)
+     
       <iframe width="100%" height="500" src="//jsfiddle.net/shaydoc/vefppzcb/20/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
     slide(:mouseNavigation='false' enter='bounceInRight' leave='fadeOut') 
-      h3.title Vue.js basics
+      h3.title Add some filters
 
       <iframe width="100%" height="500" src="https://jsfiddle.net/shaydoc/170LqLz9/2/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
@@ -165,12 +170,6 @@
         li.reason-item.bigpad Filters (pipe syntax) -  message | capitalize
         li.reason-item.bigpad Vue Instance Grouping behaviours - data , methods, computed, filters, props.....
         
-     
-    slide(:mouseNavigation='false' enter='bounceInRight' leave='fadeOut')
-      h3.title Vue.js Lifecyle
-      
-      <iframe width="100%" height="600" src="//jsfiddle.net/shaydoc/Ljh205vf/5/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
     slide(:mouseNavigation='false' enter='bounceInRight' leave='fadeOut')
       h3.title Composing with Components
             
@@ -183,6 +182,14 @@
 
       iframe(width="100%" height="500" src="//jsfiddle.net/shaydoc/jqeLuct0/9/embedded/html,js,css,result/dark/" allowfullscreen="allowfullscreen" frameborder="0")
 
+
+    slide(:mouseNavigation='false' enter='bounceInRight' leave='fadeOut')
+      h3.title Vue.js Lifecyle
+      
+      <iframe width="100%" height="600" src="//jsfiddle.net/shaydoc/Ljh205vf/5/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+
+     
     slide(e:mouseNavigation='false' nter='bounceInRight' leave='fadeOut')
       h3.title Vue.js Slots
 
