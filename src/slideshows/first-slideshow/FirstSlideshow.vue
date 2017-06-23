@@ -186,8 +186,8 @@
     slide(e:mouseNavigation='false' nter='bounceInRight' leave='fadeOut')
       h3.title Vue.js Slots
 
-      <iframe width="100%" height="300" src="//jsfiddle.net/shaydoc/7wwny1mx/2/embedded/html,js,css,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-     
+      <iframe width="100%" height="600" src="//jsfiddle.net/shaydoc/ds5gt7u3/11/embedded/html,js,css,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
     slide(:mouseNavigation='false' enter='bounceInRight' leave='fadeOut')
       h3.title Vue.js Transitions  
 
