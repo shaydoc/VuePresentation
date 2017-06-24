@@ -92,12 +92,25 @@
         p $:<strong>cd</strong>  project-name
         p $:<strong>npm install</strong>  (yarn anyone?)
         p $:<strong>npm run</strong>  dev
+
+    slide(:mouseNavigation='true' enter='bounceInRight' leave='fadeOut') 
+      h3.title The basic package.json
+
+      div.center
+         img(src='./packagejson.png')
     
     slide(:mouseNavigation='true' enter='bounceInRight' leave='fadeOut') 
       h3.title webpack.config.js
 
       div.center
         img(src='./webpack.config.png')
+
+    slide(:mouseNavigation='true' enter='bounceInRight' leave='fadeOut') 
+      h3.title webpack.config.js proxy
+
+      div.center
+        img(src='./proxymiddleware.png')
+
 
     slide(:mouseNavigation='true' enter='bounceInRight' leave='fadeOut') 
       h3.title main.js    
