@@ -391,10 +391,9 @@ h1[data-v-21fcfe32], h2[data-v-21fcfe32], h3[data-v-21fcfe32], h4[data-v-21fcfe3
       margin-bottom: 60px;
 }
 #MyFirstSlideshow .eg-slideshow .eg-slide .eg-slide-content blockquote {
-      margin-left: 90px;
       border-left: 2px solid #000;
       padding-left: 15px;
-      font-size: 0.8em;
+      font-size: 0.75em;
 }
 #MyFirstSlideshow .eg-slideshow .eg-slide .eg-slide-content .reasons {
       margin-top: 40px;
@@ -464,6 +463,12 @@ h1[data-v-21fcfe32], h2[data-v-21fcfe32], h3[data-v-21fcfe32], h4[data-v-21fcfe3
   padding: 0px 20px 20px 20px;
 }
 #MyFirstSlideshow .awesome {
+  max-height: 10em;
+  display: block;
+  margin: 0 auto;
+  padding: 0px 20px 20px 20px;
+}
+#MyFirstSlideshow .dailystandup {
   max-height: 10em;
   display: block;
   margin: 0 auto;

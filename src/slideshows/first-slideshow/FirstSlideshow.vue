@@ -110,7 +110,14 @@
     slide(:mouseNavigation='true' enter='bounceInRight' leave='fadeOut') 
       h3.title Starting Vue.js
      
-      <iframe width="100%" height="500" src="//jsfiddle.net/shaydoc/vefppzcb/21/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      blockquote
+        p <i>I really care about the approachability part of Vue, which is rooted in the belief that technology should be enabling more people to build things</i>
+        p <strong>Evan You</strong>, creator of Vue.js — <strong>Between The Wires</strong>
+     
+    
+      <iframe width="100%" height="300" src="//jsfiddle.net/shaydoc/vefppzcb/21/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      
+      
 
     slide(:mouseNavigation='true' enter='bounceInRight' leave='fadeOut')
           h3.title Composing with Components
@@ -344,7 +351,18 @@
 
     
     slide(:mouseNavigation='false' enter='bounceInRight' leave='fadeOut')
-      h1.end The End...   
+      h3.title Useful links
+
+      ul.reason
+        li.reason-item @youyuxi - Evan You (founder)
+        li.reason-item @sarah_edo - Sarah Drasner (Vue animations)
+        li.reason-item @TheLarkInn - Sean Larkin (Webpack and Vue)
+        li.reason-item https://vuejs.org/
+        li.reason-item https://router.vuejs.org/en/
+        li.reason-item https://vuex.vuejs.org/en/
+        li.reason-item https://webpack.github.io/
+        li.reason-item https://nuxtjs.org 
+       
 
 </template>
 
@@ -401,10 +419,9 @@ export default {
           
         }
         blockquote{
-          margin-left:90px;
           border-left: 2px solid #000;
           padding-left: 15px;
-          font-size: 0.8em;
+          font-size: 0.75em;
         }
         .reasons{
           margin-top: 40px;
