@@ -117,7 +117,26 @@
     
       <iframe width="100%" height="300" src="//jsfiddle.net/shaydoc/vefppzcb/21/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
       
-      
+    slide(:mouseNavigation='true' enter='bounceInRight' leave='fadeOut') 
+      h3.title Directives (v-on:click or  @click)
+     
+      <iframe width="100%" height="500" src="//jsfiddle.net/shaydoc/vefppzcb/20/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+    slide(:mouseNavigation='true' enter='bounceInRight' leave='fadeOut') 
+      h3.title Add some filters
+
+      <iframe width="100%" height="500" src="https://jsfiddle.net/shaydoc/170LqLz9/2/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+      //ol.reason
+        li.reason-item.bigpad Handlebars style text binding, want to display html, use v-html directive  
+        li.reason-item.bigpad Directives - v-for, v-on, v-if/v-else, v-bind, v-show
+        li.reason-item.bigpad Filters (pipe syntax) -  message | capitalize
+        li.reason-item.bigpad Vue Instance Grouping behaviours - data , methods, computed, filters, props.....  
+
+    slide(:mouseNavigation='true' enter='bounceInRight' leave='fadeOut') 
+      h3.title And reactive
+
+      <iframe width="100%" height="500" src="//jsfiddle.net/shaydoc/vefppzcb/8/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
     slide(:mouseNavigation='true' enter='bounceInRight' leave='fadeOut')
           h3.title Composing with Components
@@ -125,6 +144,19 @@
           img.components(src='https://vuejs.org/images/components.png')
                 
           img.components(src='https://vuejs.org/images/props-events.png')
+
+    slide(:mouseNavigation='true' enter='bounceInRight' leave='fadeOut')
+      h3.title Vue.js Lifecyle
+      
+      <iframe width="100%" height="600" src="//jsfiddle.net/shaydoc/Ljh205vf/5/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+
+     
+    slide(e:mouseNavigation='true' nter='bounceInRight' leave='fadeOut')
+      h3.title Vue.js Slots
+
+      <iframe width="100%" height="600" src="//jsfiddle.net/shaydoc/ds5gt7u3/11/embedded/html,js,css,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 
     
     slide(:mouseNavigation='true' enter='bounceInRight' leave='fadeOut') 
