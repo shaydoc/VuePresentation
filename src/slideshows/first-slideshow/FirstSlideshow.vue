@@ -157,6 +157,10 @@
 
       <iframe width="100%" height="600" src="//jsfiddle.net/shaydoc/ds5gt7u3/11/embedded/html,js,css,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
+    slide(:mouseNavigation='true' enter='bounceInRight' leave='fadeOut')
+      h3.title Vue.js Transitions  
+
+      <iframe width="100%" height="400" src="//jsfiddle.net/shaydoc/ja1y3rh8/38/embedded/html,css,js,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
     
     slide(:mouseNavigation='true' enter='bounceInRight' leave='fadeOut') 
