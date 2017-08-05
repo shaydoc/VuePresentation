@@ -9,8 +9,8 @@
         router-link(:to='slideshow.infos.path' @click.native="click")
           .embedded-slideshow-container
             component(:is="slideshow", :embedded='true',
-                      :keyboardNavigation='false',
-                      :mouseNavigation='false')
+                      :keyboardNavigation='true',
+                      :mouseNavigation='true')
         .caption
           h3 {{slideshow.infos.title}}
           p.thumbnail-description {{slideshow.infos.description}}
